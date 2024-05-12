@@ -18,21 +18,25 @@
         compatible = "zmk,combos";
 
         combo_esc {
+            timeout-ms = <50>;
             bindings = <&kp ESC>;
             key-positions = <0 1>;
         };
 
         combo_tab {
+            timeout-ms = <50>;
             bindings = <&kp TAB>;
             key-positions = <10 11>;
         };
 
         combo_lalt {
+            timeout-ms = <50>;
             bindings = <&kp LEFT_ALT>;
             key-positions = <8 9>;
         };
 
         combo_gui {
+            timeout-ms = <50>;
             bindings = <&kp LEFT_GUI>;
             key-positions = <18 19>;
         };
